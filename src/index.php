@@ -47,7 +47,7 @@ if (isset($_POST['btn_update'])){
     $_SESSION['e'] = $_GET['e'];
     echo '<script>window.location = "http://'.$_SERVER['HTTP_HOST'].'";</script>';
 }elseif ($sturlxa <> ''){
-    header("Location: https://minitik.mitik.my.id/print.php?".$sturlxa);
+    header("".$sturlxa);
     exit();
 }elseif (file_exists('offline.txt')) {
     include_once('offline.ico');

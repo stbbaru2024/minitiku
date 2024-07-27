@@ -53,7 +53,7 @@ if($_GET["id"] == 'background'){
 													</div>
 													<div class="col-sm-3" id="ButtonKembaliBackround">
 														<div class="pull-left">
-															<button data-dismiss="modal" class="btn btn-warning" onclick="window.location.href='."'".'https://youtube.com'."'".'" disabled><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
+															<button data-dismiss="modal" class="btn btn-warning" onclick="window.location.href='."'".''."'".'" disabled><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
 														</div>
 													</div>
 												</div>
@@ -167,7 +167,7 @@ if($_GET["id"] == 'gambar'){
 													</div>
 													<div class="col-sm-3" id="ButtonKembaliGambar">
 														<div class="pull-left">
-															<button data-dismiss="modal" class="btn btn-warning" onclick="window.location.href='."'".'https://youtube.com'."'".'" disabled><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
+															<button data-dismiss="modal" class="btn btn-warning" onclick="window.location.href='."'".''."'".'" disabled><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
 														</div>
 													</div>
 												</div>

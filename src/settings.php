@@ -137,9 +137,7 @@ echo '<div class="container">
 						</div>
 					</form>
 				</td><td valign="top" class="hidden-xs" style="border: none; border-radius: 0.3em; background-color:rgba(0,0,0,0.4);">
-				    <div class="panel panel-heading" style="border: 0; background-color: rgba(135, 206, 235, 0.8);">
-					    <p><strong style="color: White;"><center><button class="btn btn-danger btn-sm hidden-sm" onclick="window.location.href='."'".'https://wa.me/6287878868866'."'".'"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>&nbsp;Setting Mikrotik</button>&nbsp;<button class="btn btn-danger btn-sm" onclick="window.location.href='."'".'https://wa.me/6287878868866'."'".'"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>&nbsp;Free VPN Remote</button>&nbsp;<button class="btn btn-danger btn-sm" onclick="window.location.href='."'".'https://wa.me/6287878868866'."'".'"><span class="glyphicon glyphicon-subtitles" aria-hidden="true"></span>&nbsp;Console Mode</button>&nbsp;'; if (file_exists('offline.txt')) {if (gethostname() == 'OpenWrt' or gethostname() == 'MiniTik'){echo '<button class="btn btn-success btn-sm" onclick="window.location.href='."'".'cgi-bin/luci/'."'".'"><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span>&nbsp;OpenWrt</button>&nbsp;';} echo '<button class="btn btn-danger btn-sm" onclick="window.location.href='."'".'https://wa.me/6287878868866'."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;Tutorial MiniTik OFFLINE</button>';}else{echo '<button class="btn btn-danger btn-sm" onclick="window.location.hrefhttps://wa.me/6287878868866"'".''."'".'"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>&nbsp;MiniTik Offline</button>';} echo '&nbsp;<button class="btn btn-success btn-sm blinking hidden-sm" onclick="window.location.href='."'".'https://wa.me/6287878868866'."'".'"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&nbsp;What is MiniTik?</button></center></strong></p>
-				    </div>
+				    
 				    <div class="panel-body" style="height: 400px; overflow:auto; width:100%; margin:0px; padding: 0px;">
 				        <table style="border: none; width:99%;"><tbody>
 				            <tr><td class="hidden-sm" style="width:70%; border: none;" rowspan="2" valign="top">';
@@ -204,60 +202,6 @@ echo '<div class="container">
 }
 </style>
 <div id="pageshare" class="hidden-xs">
-    <div class="sbutton">
-    <a href="#" target="_blank">
-        <img src="/images/facebook.png" alt="Facebook" />
-    </a>
-    </div>
-    <div class="sbutton">
-    <a href="#" target="_blank">
-        <img src="/images/twitter.png" alt="Twitter" />
-    </a>
-    </div>
-    <div class="sbutton">
-    <a href="#" target="_blank">
-        <img src="/images/google.png" alt="Google" />
-    </a>
-    </div>
-    <div class="sbutton">
-    <a href="#" target="_blank">
-        <img src="/images/diggit.png" alt="Digg" />
-    </a>
-    </div>
-    <div class="sbutton">
-    <a href="#" target="_blank">
-        <img src="/images/buffer.png" alt="Buffer" />
-    </a>
-    </div>
-    <div class="sbutton">
-    <a href="#" target="_blank">
-        <img src="/images/linkedin.png" alt="LinkedIn" />
-    </a>
-    </div>
-    <div class="sbutton">
-    <a href="#" target="_blank">
-        <img src="/images/reddit.png" alt="Reddit" />
-    </a>
-    </div>
-    <div class="sbutton">
-    <a href="#" target="_blank">
-        <img src="/images/stumbleupon.png" alt="StumbleUpon" />
-    </a>
-    </div>
-    <div class="sbutton">
-    <a href="#" target="_blank">
-        <img src="/images/tumblr.png" alt="Tumblr" />
-    </a>
-    </div>
-    <div class="sbutton">
-    <a href="#" target="_blank">
-        <img src="/images/vk.png" alt="VK" />
-    </a>
-    </div>
-    <div class="sbutton">
-    <a href="#" target="_blank">
-        <img src="/images/yummly.png" alt="Yummly" />
-    </a>
-    </div>
+   
 </div>';
 ?>

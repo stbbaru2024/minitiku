@@ -67,13 +67,13 @@ echo base64_decode(str_replace('ka05tq','=',str_replace('3ab1pm','+',str_replace
                     </div>
                     <div class="col-md-2">
                         <div class="menu-item skyblue">
-                            <a href="https://www.youtube.com/channel/UCxITCtCNA3qc60oKGYFrNng/videos?sub_confirmation=1">
+                            <a href="#">
                                 <i class="fa fa-youtube"></i>
                                 <p>'.$bhsa29.'</p>
                             </a>
                         </div>
                         <div class="menu-item gold">
-                            <a href="https://minitik.mitik.my.id/print.php?donations">
+                            <a href="#">
                                 <i class="fa fa-heart"></i>
                                 <p>'.$bhsa74.'</p>
                             </a>
@@ -110,7 +110,7 @@ echo base64_decode(str_replace('ka05tq','=',str_replace('3ab1pm','+',str_replace
                                     $hg = $hg + 1;
                                     $slogin[$hg] = $dlogin;
                                 }
-                                $aurllgn = 'https://minitik.mitik.my.id/index.php?a='.str_replace('%','hO8s0rB1',str_replace('=','kQ2m7gp4',str_replace('+','Uc9Ts3L0',base64_encode($slogin[1].','.$slogin[2].','.$slogin[3].','.$slogin[4].','.$slogin[5]))));
+                                $aurllgn = 'http://'.$_SERVER['HTTP_HOST'].'.str_replace('%','hO8s0rB1',str_replace('=','kQ2m7gp4',str_replace('+','Uc9Ts3L0',base64_encode($slogin[1].','.$slogin[2].','.$slogin[3].','.$slogin[4].','.$slogin[5]))));
                                 if ($_SESSION['namamikrotik'] <> $slogin[6]){echo base64_decode(str_replace('ka05tq','=',str_replace('3ab1pm','+',str_replace('u9i8e4','/',strrev('We0NHIkRHP').strrev('kJ3biJSPlx').strrev('mbv5GI6IXZ').strrev('jBCc84jI7U').strrev('nYi0zczFGb').strrev('z1ib0JGIuR').strrev('GIzNXZjNWd').strrev('u92Yt0mcvZ').strrev('2bgICbvJHd').strrev('i0zajlGbj5').strrev('mL39GZul2d').strrev('u9Wa0F2Yvx').'LmhyZWY9'))))."'".$aurllgn."'".'"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>&nbsp;'.$slogin[6].'</p></td>';}
 					        }
 					    }
@@ -275,7 +275,7 @@ echo base64_decode(str_replace('ka05tq','=',str_replace('3ab1pm','+',str_replace
 							    					</div>
 								    				<div class="col-sm-3">
 									    				<div class="pull-left">
-										    				<button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".'https://youtu.be/5gY8j963piU'."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
+										    				<button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".''."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
 													    </div>
 													</div>
     											</div>
@@ -327,7 +327,7 @@ echo base64_decode(str_replace('ka05tq','=',str_replace('3ab1pm','+',str_replace
 						
 						
 					</div>
-					<div class="no_print"><a href="https://youtube.com/teknisiwifi?sub_confirmation=1">Teknisi Wifi</a> - <a href="https://www.mitik.my.id">MiniTik</a> @'.date('Y').'</div>
+					<div class="no_print"><a href="#">Teknisi Wifi</a> - <a href="#">MiniTik</a> @'.date('Y').'</div>
 			    </div>
 			</div>
 		</div>	
@@ -631,7 +631,7 @@ echo base64_decode(str_replace('ka05tq','=',str_replace('3ab1pm','+',str_replace
 												    </div>
 												    <div class="col-sm-3">
 													    <div class="pull-left">
-														    <button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".'https://youtu.be/3kALShfTj78'."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
+														    <button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".''."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
 													    </div>
 												    </div>
                                                 </div>
@@ -786,7 +786,7 @@ echo base64_decode(str_replace('ka05tq','=',str_replace('3ab1pm','+',str_replace
 				            </div>
 							</div>
 						</div>
-						<div class="no_print"><a href="https://youtube.com/teknisiwifi?sub_confirmation=1">Teknisi Wifi</a> - <a href="https://www.mitik.my.id">MiniTik</a> @'.date('Y').'</div>
+						<div class="no_print"><a href="#">Teknisi Wifi</a> - <a href="#">MiniTik</a> @'.date('Y').'</div>
 				</div>
 			</div>
 		</div>	
@@ -875,7 +875,7 @@ echo base64_decode(str_replace('ka05tq','=',str_replace('3ab1pm','+',str_replace
     						</center>
     					    </form><br>
     					    </div>
-    					    </div><a href="https://youtube.com/teknisiwifi?sub_confirmation=1">Teknisi Wifi</a> - <a href="https://www.mitik.my.id">MiniTik</a> @'.date('Y').'
+    					    </div><a href="#">Teknisi Wifi</a> - <a href="#">MiniTik</a> @'.date('Y').'
     					    </div>
     					    <div class="hidden-xs">
     					    <div class="col-sm-6 col-md-6 thumbnail" style="border: none;">
@@ -987,7 +987,7 @@ echo base64_decode(str_replace('ka05tq','=',str_replace('3ab1pm','+',str_replace
 													</div>
 													<div class="col-sm-3">
 														<div class="pull-left">
-															<button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".'https://youtu.be/rMws5sjy4Ns'."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
+															<button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".''."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
 														</div>
 													</div>
 												</div>
@@ -996,7 +996,7 @@ echo base64_decode(str_replace('ka05tq','=',str_replace('3ab1pm','+',str_replace
 									</form>
                                     </div>	
 								</div>
-								<a href="https://youtube.com/teknisiwifi?sub_confirmation=1">Teknisi Wifi</a> - <a href="https://www.mitik.my.id">MiniTik</a> @'.date('Y').'
+								<a href="#">Teknisi Wifi</a> - <a href="#">MiniTik</a> @'.date('Y').'
 							</div>
 				            <div class="col-sm-4 col-md-8 thumbnail" style="border: none;">
 					            <div class="panel panel-primary">

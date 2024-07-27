@@ -172,7 +172,7 @@ if($_GET["id"] == 'voucher'){
 													</div>
 													<div class="col-sm-3">
 														<div class="pull-left">
-														    <button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".'https://youtu.be/5gY8j963piU'."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
+														    <button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".''."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
 														</div>
 													</div>
 												</div>
@@ -371,7 +371,7 @@ if($_GET["id"] == 'macaddress'){
 													</div>
 													<div class="col-sm-3">
 														<div class="pull-left">
-															<button data-dismiss="modal" class="btn btn-warning" onclick="window.location.href='."'".'https://youtube.com'."'".'" disabled><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
+															<button data-dismiss="modal" class="btn btn-warning" onclick="window.location.href='."'".''."'".'" disabled><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
 														</div>
 													</div>
 												</div>
@@ -747,7 +747,7 @@ if($_GET["id"] == 'bypass'){
 													</div>
 													<div class="col-sm-3">
 														<div class="pull-left">
-															<button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".'https://youtu.be/RFteHpVZk2c'."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
+															<button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".''."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
 														</div>
 													</div>
 												</div>
@@ -1288,7 +1288,7 @@ if($_GET["id"] == 'event'){
 													</div>
 													<div class="col-sm-3">
 														<div class="pull-left">
-															<button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".'https://youtu.be/Yx1uprNfsdw'."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
+															<button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".''."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
 														</div>
 													</div>
 												</div>
@@ -1653,7 +1653,7 @@ if($_GET["id"] == 'ppp'){
 													</div>
 													<div class="col-sm-3">
 														<div class="pull-left">
-															<button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".'https://youtu.be/CB3vKK_l6SI'."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
+															<button data-dismiss="modal" class="btn btn-warning blinking" onclick="window.location.href='."'".''."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;'.$bhsa29.'</button>
 														</div>
 													</div>
 												</div>
