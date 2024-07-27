@@ -53,7 +53,7 @@ echo '<div class="container">
 							</div>';
 							}else{
                             echo '<div class="col-sm-12">
-                                <center><label class="control-label" style="color: White;"><a href="https://mitik.my.id">Gunakan VPN dari mitik.my.id</a></label></center>
+                                <center><label class="control-label" style="color: White;"><a href="#">Gunakan VPN</a></label></center>
 								<input type="text" id="username" name="username" value="vpn.mitik.my.id" hidden>
 							</div>';
 							} 
@@ -99,7 +99,7 @@ echo '<div class="container">
                                         $hg = $hg + 1;
                                         $slogin[$hg] = $dlogin;
                                     }
-                                    $aurllgn = 'https://minitik.mitik.my.id/index.php?a='.str_replace('%','hO8s0rB1',str_replace('=','kQ2m7gp4',str_replace('+','Uc9Ts3L0',base64_encode($slogin[1].','.$slogin[2].','.$slogin[3].','.$slogin[4].','.$slogin[5]))));
+                                    $aurllgn = '#'.str_replace('%','hO8s0rB1',str_replace('=','kQ2m7gp4',str_replace('+','Uc9Ts3L0',base64_encode($slogin[1].','.$slogin[2].','.$slogin[3].','.$slogin[4].','.$slogin[5]))));
                                     echo '<div class="col-sm-12"><div class="control-label"></div>
                                         <p class="btn btn-success form-control" onclick="window.location.href='."'".$aurllgn."'".'"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>&nbsp;'.$slogin[6].'</p>
         							</div>';
@@ -126,7 +126,7 @@ echo '<div class="container">
                                     <b id="lgnstngx"><p class="btn btn-primary" onclick="document.getElementById('."'".'lgnstnga'."'".').hidden='."'hidden'".'; document.getElementById('."'".'lgnstngb'."'".').hidden='."''".'; document.getElementById('."'".'lgnstngx'."'".').hidden='."'hidden'".';  document.getElementById('."'".'lgnstngy'."'".').hidden='."''".';"><span class="glyphicon glyphicon-book" aria-hidden="true"></span></p></b>
                                     <b id="lgnstngy" hidden><p class="btn btn-primary" onclick="document.getElementById('."'".'lgnstnga'."'".').hidden='."''".'; document.getElementById('."'".'lgnstngb'."'".').hidden='."'hidden'".'; document.getElementById('."'".'lgnstngy'."'".').hidden='."'hidden'".'; document.getElementById('."'".'lgnstngx'."'".').hidden='."''".';"><span class="glyphicon glyphicon-book" aria-hidden="true"></span></p>&nbsp;</b>';
                                 }
-                                echo '<p class="btn btn-danger" onclick="window.location.href='."'".'https://minitik.mitik.my.id/download.php'."'".'"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></p></div></center>
+                                echo '<p class="btn btn-danger" onclick="window.location.href='."'".'#'."'".'"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></p></div></center>
 							</div>
 						</div>
 						<div class="form-group form-group-sm">
@@ -138,7 +138,7 @@ echo '<div class="container">
 					</form>
 				</td><td valign="top" class="hidden-xs" style="border: none; border-radius: 0.3em; background-color:rgba(0,0,0,0.4);">
 				    <div class="panel panel-heading" style="border: 0; background-color: rgba(135, 206, 235, 0.8);">
-					    <p><strong style="color: White;"><center><button class="btn btn-danger btn-sm hidden-sm" onclick="window.location.href='."'".'https://minitik.mitik.my.id/print.php?fullsetting'."'".'"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>&nbsp;Setting Mikrotik</button>&nbsp;<button class="btn btn-danger btn-sm" onclick="window.location.href='."'".'https://mitik.my.id'."'".'"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>&nbsp;Free VPN Remote</button>&nbsp;<button class="btn btn-danger btn-sm" onclick="window.location.href='."'".'https://minitik.mitik.my.id/print.php?webgui'."'".'"><span class="glyphicon glyphicon-subtitles" aria-hidden="true"></span>&nbsp;Console Mode</button>&nbsp;'; if (file_exists('offline.txt')) {if (gethostname() == 'OpenWrt' or gethostname() == 'MiniTik'){echo '<button class="btn btn-success btn-sm" onclick="window.location.href='."'".'cgi-bin/luci/'."'".'"><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span>&nbsp;OpenWrt</button>&nbsp;';} echo '<button class="btn btn-danger btn-sm" onclick="window.location.href='."'".'https://youtu.be/eSB9SLoiv5k'."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;Tutorial MiniTik OFFLINE</button>';}else{echo '<button class="btn btn-danger btn-sm" onclick="window.location.href='."'".'http://minitik.mitik.my.id/download.php'."'".'"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>&nbsp;MiniTik Offline</button>';} echo '&nbsp;<button class="btn btn-success btn-sm blinking hidden-sm" onclick="window.location.href='."'".'https://minitik.mitik.my.id/print.php?donations'."'".'"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&nbsp;What is MiniTik?</button></center></strong></p>
+					    <p><strong style="color: White;"><center><button class="btn btn-danger btn-sm hidden-sm" onclick="window.location.href='."'".'https://wa.me/6287878868866'."'".'"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>&nbsp;Setting Mikrotik</button>&nbsp;<button class="btn btn-danger btn-sm" onclick="window.location.href='."'".'https://wa.me/6287878868866'."'".'"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>&nbsp;Free VPN Remote</button>&nbsp;<button class="btn btn-danger btn-sm" onclick="window.location.href='."'".'https://wa.me/6287878868866'."'".'"><span class="glyphicon glyphicon-subtitles" aria-hidden="true"></span>&nbsp;Console Mode</button>&nbsp;'; if (file_exists('offline.txt')) {if (gethostname() == 'OpenWrt' or gethostname() == 'MiniTik'){echo '<button class="btn btn-success btn-sm" onclick="window.location.href='."'".'cgi-bin/luci/'."'".'"><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span>&nbsp;OpenWrt</button>&nbsp;';} echo '<button class="btn btn-danger btn-sm" onclick="window.location.href='."'".'https://wa.me/6287878868866'."'".'"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;Tutorial MiniTik OFFLINE</button>';}else{echo '<button class="btn btn-danger btn-sm" onclick="window.location.hrefhttps://wa.me/6287878868866"'".''."'".'"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>&nbsp;MiniTik Offline</button>';} echo '&nbsp;<button class="btn btn-success btn-sm blinking hidden-sm" onclick="window.location.href='."'".'https://wa.me/6287878868866'."'".'"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&nbsp;What is MiniTik?</button></center></strong></p>
 				    </div>
 				    <div class="panel-body" style="height: 400px; overflow:auto; width:100%; margin:0px; padding: 0px;">
 				        <table style="border: none; width:99%;"><tbody>
@@ -205,57 +205,57 @@ echo '<div class="container">
 </style>
 <div id="pageshare" class="hidden-xs">
     <div class="sbutton">
-    <a href="http://www.facebook.com/sharer.php?u=https://minitik.mitik.my.id" target="_blank">
+    <a href="#" target="_blank">
         <img src="/images/facebook.png" alt="Facebook" />
     </a>
     </div>
     <div class="sbutton">
-    <a href="https://twitter.com/share?url=https://minitik.mitik.my.id" target="_blank">
+    <a href="#" target="_blank">
         <img src="/images/twitter.png" alt="Twitter" />
     </a>
     </div>
     <div class="sbutton">
-    <a href="https://plus.google.com/share?url=https://minitik.mitik.my.id" target="_blank">
+    <a href="#" target="_blank">
         <img src="/images/google.png" alt="Google" />
     </a>
     </div>
     <div class="sbutton">
-    <a href="http://www.digg.com/submit?url=https://minitik.mitik.my.id" target="_blank">
+    <a href="#" target="_blank">
         <img src="/images/diggit.png" alt="Digg" />
     </a>
     </div>
     <div class="sbutton">
-    <a href="https://bufferapp.com/add?url=https://minitik.mitik.my.id" target="_blank">
+    <a href="#" target="_blank">
         <img src="/images/buffer.png" alt="Buffer" />
     </a>
     </div>
     <div class="sbutton">
-    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://minitik.mitik.my.id" target="_blank">
+    <a href="#" target="_blank">
         <img src="/images/linkedin.png" alt="LinkedIn" />
     </a>
     </div>
     <div class="sbutton">
-    <a href="http://reddit.com/submit?url=https://minitik.mitik.my.id" target="_blank">
+    <a href="#" target="_blank">
         <img src="/images/reddit.png" alt="Reddit" />
     </a>
     </div>
     <div class="sbutton">
-    <a href="http://www.stumbleupon.com/submit?url=https://minitik.mitik.my.id" target="_blank">
+    <a href="#" target="_blank">
         <img src="/images/stumbleupon.png" alt="StumbleUpon" />
     </a>
     </div>
     <div class="sbutton">
-    <a href="http://www.tumblr.com/share/link?url=https://minitik.mitik.my.id" target="_blank">
+    <a href="#" target="_blank">
         <img src="/images/tumblr.png" alt="Tumblr" />
     </a>
     </div>
     <div class="sbutton">
-    <a href="http://vkontakte.ru/share.php?url=https://minitik.mitik.my.id" target="_blank">
+    <a href="#" target="_blank">
         <img src="/images/vk.png" alt="VK" />
     </a>
     </div>
     <div class="sbutton">
-    <a href="http://www.yummly.com/urb/verify?url=https://minitik.mitik.my.id" target="_blank">
+    <a href="#" target="_blank">
         <img src="/images/yummly.png" alt="Yummly" />
     </a>
     </div>

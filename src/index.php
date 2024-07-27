@@ -42,7 +42,7 @@ if (isset($_POST['btn_update'])){
     }
     echo '<script>window.location = "http://'.$_SERVER['HTTP_HOST'].'";</script>';
 }elseif ($_GET['fbclid'] <> ''){
-    echo '<script>window.location = "https://minitik.mitik.my.id?'.substr($sturlxa,0,strpos($sturlxa,'fbclid')).'";</script>';
+    echo '<script>window.location = "http://'.$_SERVER['HTTP_HOST'].'.substr($sturlxa,0,strpos($sturlxa,'fbclid')).'";</script>';
 }elseif(isset($_GET['e'])){
     $_SESSION['e'] = $_GET['e'];
     echo '<script>window.location = "http://'.$_SERVER['HTTP_HOST'].'";</script>';
